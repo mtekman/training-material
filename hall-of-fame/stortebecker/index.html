@@ -48,29 +48,84 @@
                             <i class="fas fa-users" aria-hidden="true"></i><span class="visually-hidden">hall-of-fame</span> Contributors
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/galaxyproject/training-material" title="View on GitHub">
-                            <i class="fab fa-github" aria-hidden="true"></i><span class="visually-hidden">github</span> View on GitHub
-                        </a>
-                    </li>
                     <li class="nav-item dropdown">
     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Help">
         <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">help</span> Help
     </a>
     <div class="dropdown-menu dropdown-menu-right">
+        <!-- disable Tess for now
         <form method="get" action="https://tess.elixir-europe.org/materials">
             <input type="text" id="search" name="q" value="" style="margin-left: 0.5em;/*! border-radius: 0px; */">
             <input type="hidden" value="Galaxy Training" name="content_provider">
             <input type="submit" value="Search on TeSS" style="width: 92%;border-radius: 0px;margin: 0.5em;background: #f47d20;border: 0px;padding: 0.25em;" class="">
         </form>
+        -->
 
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="/training-material/faq" title="Check our FAQ">
-            FAQ
+        <a class="dropdown-item" href="/training-material/faq" title="Check our FAQs">
+           <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> FAQs
         </a>
+        
         <a class="dropdown-item" href="https://help.galaxyproject.org/" title="Discuss on Galaxy Help">
-            Discuss on Galaxy Help
+            <i class="far fa-comments" aria-hidden="true"></i><span class="visually-hidden">feedback</span> Galaxy Help Forum
         </a>
+        <a class="dropdown-item" href="https://gitter.im/Galaxy-Training-Network/Lobby" title="Discuss on gitter">
+           <i class="fab fa-gitter" aria-hidden="true"></i><span class="visually-hidden">gitter</span> Discuss on Gitter
+        </a>
+    </div>
+</li>
+
+
+                    <li class="nav-item dropdown">
+    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Extras">
+        <i class="far fa-star" aria-hidden="true"></i><span class="visually-hidden">galaxy-star</span> Extras
+    </a>
+    <div class="dropdown-menu dropdown-menu-right">
+
+        
+        <a class="dropdown-item" href="https://github.com/galaxyproject/training-material/edit/main/hall-of-fame/stortebecker/" title="Edit on GitHub">
+          <i class="fab fa-github" aria-hidden="true"></i><span class="visually-hidden">github</span> Edit on GitHub
+        </a>
+
+        <a class="dropdown-item" href="/training-material/stats.html" title="Show view statistics about this rrepository">
+            <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN statistics
+        </a>
+
+        <a class="dropdown-item" href="https://plausible.galaxyproject.eu/training.galaxyproject.org?period=12mo&page=/training-material/hall-of-fame/stortebecker/" title="Show view statistics of this page">
+            <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> Page Metrics
+        </a>
+
+        <div class="dropdown-item">
+            <div>
+                <i class="fas fa-language" aria-hidden="true"></i><span class="visually-hidden">language</span> Translate this page
+            </div>
+
+            <div id="lang-selector">
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org/hall-of-fame/stortebecker/&edit-text=&act=url">
+                Français
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org/hall-of-fame/stortebecker/&edit-text=&act=url">
+                日本語
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org/hall-of-fame/stortebecker/&edit-text=&act=url">
+                Español
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org/hall-of-fame/stortebecker/&edit-text=&act=url">
+                Português
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org/hall-of-fame/stortebecker/&edit-text=&act=url">
+                العربية
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2F%2Ftutorials%2F%2Ftutorial.html&edit-text=&act=url" title="">
+                And more!
+                </a>
+            </div>
+        </div>
 
         <div class="dropdown-item">
             <div>
@@ -246,36 +301,6 @@
 						
 					
 						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
 						<li>
 							
 							
@@ -283,14 +308,10 @@
 								Proteomics
 							</a>
 							/
-							<a href="/training-material//topics/proteomics/tutorials/labelfree-vs-labelled/tutorial.html">
-							Label-free versus Labelled - How to Choose Your Quantitation Method
+							<a href="/training-material//topics/proteomics/tutorials/secretome-prediction/tutorial.html">
+							Secretome Prediction
 							</a>
 						</li>
-						
-					
-						
-					
 						
 					
 						
@@ -308,8 +329,6 @@
 						
 					
 						
-					
-						
 						<li>
 							
 							
@@ -317,10 +336,12 @@
 								Proteomics
 							</a>
 							/
-							<a href="/training-material//topics/proteomics/tutorials/secretome-prediction/tutorial.html">
-							Secretome Prediction
+							<a href="/training-material//topics/proteomics/tutorials/protein-id-oms/tutorial.html">
+							Peptide and Protein ID using OpenMS tools
 							</a>
 						</li>
+						
+					
 						
 					
 						
@@ -339,6 +360,20 @@
 							Protein FASTA Database Handling
 							</a>
 						</li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
 						
 					
 						
@@ -367,20 +402,10 @@
 								Proteomics
 							</a>
 							/
-							<a href="/training-material//topics/proteomics/tutorials/protein-id-oms/tutorial.html">
-							Peptide and Protein ID using OpenMS tools
+							<a href="/training-material//topics/proteomics/tutorials/labelfree-vs-labelled/tutorial.html">
+							Label-free versus Labelled - How to Choose Your Quantitation Method
 							</a>
 						</li>
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
 						
 					
 						
@@ -397,6 +422,60 @@
 							Detection and quantitation of N-termini (degradomics) via N-TAILS
 							</a>
 						</li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
 						
 					
 						
@@ -812,6 +891,16 @@
 					
 						
 					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
 					</ul>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
@@ -877,7 +966,21 @@ var topics = [
 	
 
 	
+		
+		
+		"Proteomics",
+	
 
+	
+		
+		
+		"Proteomics",
+	
+
+	
+		
+		
+		"Proteomics",
 	
 
 	
@@ -887,9 +990,9 @@ var topics = [
 	
 
 	
-
-	
-
+		
+		
+		"Proteomics",
 	
 
 	
@@ -935,15 +1038,37 @@ var topics = [
 	
 
 	
-		
-		
-		"Proteomics",
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
 	
 
 	
-		
-		
-		"Proteomics",
+
 	
 
 	
@@ -951,9 +1076,7 @@ var topics = [
 	
 
 	
-		
-		
-		"Proteomics",
+
 	
 
 	
@@ -969,9 +1092,7 @@ var topics = [
 	
 
 	
-		
-		
-		"Proteomics",
+
 	
 
 	
@@ -1210,6 +1331,7 @@ var topics = [
 
 	
 
+
 	
 
 	
@@ -1218,6 +1340,7 @@ var topics = [
 
 	
 
+	
 
 	
 
@@ -1446,6 +1569,7 @@ var chart = new Chart(ctx, {
 
 <footer>
     <div class="container">
+        <br><br>
         <p>
             The <a href="https://galaxyproject.org/teach/gtn/">Galaxy Training Network</a>
             provides researchers with online training materials, connects them with local trainers, and helps promoting open data analysis practices worldwide.
@@ -1453,7 +1577,7 @@ var chart = new Chart(ctx, {
         <p>
     The content of the tutorials and website is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 </p>
-        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/718bc87be2d76bebf70e42b240ef8a188ea578b1">718bc87be2d76bebf70e42b240ef8a188ea578b1</a></p>
+        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/bc1d57286edc44cd10f8f48b79903807b6293aad">bc1d57286edc44cd10f8f48b79903807b6293aad</a></p>
     </div>
 </footer>
 
